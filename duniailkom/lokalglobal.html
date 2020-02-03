@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="in">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>globallokal</title>
+
+    <!-- <script>
+        // var nilai = "global";
+        // function test() {
+        //     var nilai = "lokal";
+        //     var nilai_lokal = "duniabaru";
+        //     tanpa_var = "no_scope";
+        //     console.log(nilai);
+        // }
+        // test();
+        // console.log(nilai);
+        // console.log(tanpa_var);
+        // // console.log(nilai_lokal);
+
+        // a = "Saya sedang belajar javascript";
+        // console.log(a.length);
+        // console.log(a.toUpperCase());
+        // alert(a.length);
+        // alert(a.toUpperCase());
+
+        // var b = 12;
+        // var c = 4;
+        // var d = 2;
+        // console.log(b);
+        // console.log(c);
+        // console.log(d);
+
+        // var e = b + c;
+        // console.log(e);
+        // var f = c * 5;
+        // console.log(f);
+        // var g = 3 + 6 *2;
+        // console.log(g)
+        // var h = d + c * b % 3;
+        // console.log(h);
+        // console.log('hai')
+        // var i = 3 * 4 / 5 * 5;
+        // console.log("hasilnya :",i);
+        // var j = (((3 * 4) / 5) * 5);
+        // console.log(i);
+        // console.log('Sukses')
+
+        // // menghasilkan nila NaN (Not A Number)
+        // var kos = 0;
+        // var kosi = 0;
+        // var kosiini = kos / kosi;
+        // console.log(kosiini);
+    </script> -->
+
+    <script>
+        var a = 5;
+        var b = 7;
+
+        var c = b / 0;
+        console.log(c);
+        // ini menampilkan hasil infinity --> division by zero
+
+        var d = 12 / 0;
+        console.log(d);
+        // Infinity --> division by zero
+
+        var e = 1 + Math.pow(10,309);
+        console.log(e)
+        // infinity --> overflow
+
+        var f = -Math.pow(10,309) - 1;
+        console.log(f);
+        // -infinity --> negative infinity
+
+        var g = b + e;
+        console.log(g);
+        // infinity semua
+
+        var h = 0/0;
+        console.log(h);
+        // NaN
+
+        var i = Math.sqrt(-24);
+        console.log(i);
+
+        var j = c / d;
+        console.log(j);
+        // NaN --> infiniti dan infinity
+    </script>
+
+</head>
+
+<body>
+    <h1>Halo Bos</h1>
+</body>
+
+</html>

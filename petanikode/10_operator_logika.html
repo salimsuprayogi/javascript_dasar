@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>operator logika</title>
+</head>
+
+<body>
+    <script>
+        var aku = 20;
+        var kamu = 19;
+
+        var benar = aku > kamu;
+        var salah = aku < kamu;
+
+        // operatot && (and)
+        var hasil = benar && salah;
+        document.write(`${benar} && ${salah} = ${hasil}<br/>`);
+
+        // operator || (or)
+        var hasil = benar || salah;
+        document.write(`${benar} || ${salah} = ${hasil}<br/>`);
+        // document.write(`${salah} && ${salah} = ${hasil}<br/>`);
+
+        // operator ! (not)
+        var hasil = !benar;
+        document.write(`!${benar} = ${hasil}<br/>`);
+
+        var a = 8;
+        if (a === 8) {
+            document.write("benar....");
+        } else {
+            document.write("salah....");
+        }
+
+    </script>
+</body>
+
+</html>

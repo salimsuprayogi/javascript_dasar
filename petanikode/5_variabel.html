@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belajar membuat variabel</title>
+    <script>
+        // membuat variabel dianjurkan menggunakan camelCase
+        var name = "Petani Kode";
+        var visitorCount = 50322;
+        var isActive = true;
+        var url = "https://www.petanikode.com";
+
+        // menampilkan variabel ke jendela dialog(alert)
+        alert("Selamat datang di " + name);
+
+        // menampilkan variabel ke dalam HTML
+        document.write("Nama Situs: " + name + "<br>");
+        document.write("Jumlah Pengunjung: " + visitorCount + "<br>");
+        document.write("Status Aktif: " + isActive + "<br>");
+        document.write("Alamat URL: " + url + "<br>");
+
+        // mengisi ulang variabel
+        var age = 18;
+        document.write("Usia: " + age + "<br>");
+        // lalu isi ulang
+        age = 21;
+        document.write("Usia Lagi: " + age + "<br>");
+        //  untuk isi ulang tidak perlu menggunakan 'var'
+
+        // menghapus variabel
+        hapus = "Ini akan di hapus";
+        document.write(hapus + "<br>");
+        // variabel yang bisa di hapus hanya variabel yang tidak memakai 'var'
+        // jika memakai 'var' maka tidak bisa di hapus
+        delete hapus;
+        // ketika di tampilkan, maka tidak akan muncul di layar
+        document.write("Setelah di hapus: " + hapus + "<br>");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
